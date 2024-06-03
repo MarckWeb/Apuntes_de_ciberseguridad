@@ -8,7 +8,7 @@ directorios del sistema:
  pwd
 ```
 
-```bash
+```scss
 # Ejemplo de Salida
 ┌──(marck㉿kali)-[~]
 └─$ pwd
