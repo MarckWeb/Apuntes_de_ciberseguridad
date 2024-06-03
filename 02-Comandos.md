@@ -4,8 +4,12 @@ vamos a conocer más comandos utilizados para movernos por la estructura de
 directorios del sistema: 
 
 - **pwd (Print Working Directoty)** -. Muestra la ruta del directorio de trabajo actual.
+```bash
+ pwd
+```
 
 ```bash
+# Ejemplo de Salida
 ┌──(marck㉿kali)-[~]
 └─$ pwd
 /home/marck
