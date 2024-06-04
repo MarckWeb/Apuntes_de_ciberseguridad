@@ -133,7 +133,7 @@ rm -r nombre_del_directorio
 touch nombre_del_archivo
 ```
 
-```plaintext
+```bash
 # ejemplo de salida
 ┌──(marck㉿kali)-[~]
 └─$ touch archivo_nuevo.txt
@@ -156,21 +156,64 @@ jaimito
 root
 ```
  
-- __cp (Copy)__ -. Copia archivos o directorios.
+- __cp (Copy)__ -. Copia archivos o directorios. No necesitas estar en una posición específica dentro del directorio, pero debes especificar las rutas correctas para el archivo o directorio de origen y de destino. 
 
 ```bash
 cp archivo_origen archivo_destino
 ```
-Para copiar un directorio y su contenido:
+Por ejemplo, si estás en /home/usuario/documentos y quieres copiar archivo.txt a archivo_copia.txt en el mismo directorio:
+
+```bash
+cp archivo.txt archivo_copia.txt
+```
+
+Si el archivo de origen está en un directorio diferente, necesitas proporcionar la ruta completa o relativa:
+Por ejemplo, si quieres copiar archivo.txt desde /home/usuario/downloads a /home/usuario/documentos:
+
+```bash
+cp /home/usuario/downloads/archivo.txt /home/usuario/documentos/archivo.txt 
+```
+
+Para copiar un directorio y su contenido: y se siguen los mismo pasos anteriores para copiar a otro directorio
 
 ```bash
 cp -r directorio_origen directorio_destino
 ```
-
-- __mv (Move)__ -. Mueve o renombra archivos o directorios.
-
 ```bash
 # ejemplo de salida
+┌──(marck㉿kali)-[~/Desktop]
+└─$ cp /home/marck/usernames2.txt /home/marck/Desktop/usernames2.txt
+
+```
+- __mv (Move)__ -. Mueve o renombra archivos o directorios. Si especificas las rutas completas, no importa en qué directorio estés situado. 
+
+```bash
 mv archivo_origen archivo_destino
+```
+Renombra el archivo existente:
+
+```bash
+mv /home/marck/desktop /home/marck/desktop_file
+```
+
+Mover el archivo existente:
+Por ejemplo, para mover archivo.txt desde /home/marck/documentos a /home/marck/desktop, usarías:
+
+```bash
+mv /home/marck/documentos/archivo.txt /home/marck/desktop/archivo.txt
+```
+
+Si estás en el mismo directorio que el archivo que deseas mover:
+
+```bash
+cd /home/marck/documentos
+mv archivo.txt ../desktop/archivo.txt
+```
+
+Si estás en el directorio padre de ambos el directorio de origen y el de destino:
+
+```bash
+cd /home/marck
+mv documentos/archivo.txt desktop/archivo.txt
 ```
 
