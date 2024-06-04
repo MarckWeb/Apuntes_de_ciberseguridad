@@ -117,14 +117,11 @@ rm -r nombre_del_directorio
 # ejemplo de salida
 # eliminar directorio sin contenido
 ┌──(marck㉿kali)-[~]
-└─$ rmdir directorio_padre                               
+└─$ rmdir directorio_padre   
 
 # eliminar directorio con contenido                                         
 ┌──(marck㉿kali)-[~]
 └─$ rm -r  directorio_padre 
-                                                                                              
-┌──(marck㉿kali)-[~]
-└─$ cd directorio_padre
 ```
 
 - __touch__ -. Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente..
