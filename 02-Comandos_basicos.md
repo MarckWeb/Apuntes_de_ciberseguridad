@@ -134,11 +134,13 @@ cd: no such file or directory: directorio_padre
 touch nombre_del_archivo
 ```
 
-```bash
-# ejemplo de salida
-┌──(marck㉿kali)-[~]
-└─$ touch archivo_nuevo.txt
-```
+<div style="border: 1px solid red;">
+  <pre>
+    # ejemplo de salida
+    ┌──(marck㉿kali)-[~]
+    └─$ touch archivo_nuevo.txt
+  </pre>
+</div>
 - __cat__ -. Muestra el contenido de un archivo.
 
 ```bash
