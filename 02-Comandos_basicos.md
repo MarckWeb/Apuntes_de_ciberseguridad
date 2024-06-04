@@ -141,23 +141,26 @@ touch nombre_del_archivo
     └─$ touch archivo_nuevo.txt
   </pre>
 </div>
+
 - __cat__ -. Muestra el contenido de un archivo.
 
 ```bash
 cat nombre_del_archivo
 ```
 
-```bash
+<div style="border: 1px solid red; padding: 10px; margin-top: 10px;">
+<pre>
 # ejemplo de salida
 ┌──(marck㉿kali)-[~]
-└─$ cat usernames.txt     
+└─$ cat usernames.txt
 admin
 user
 msfadmin
 pepe
 jaimito
 root
-```
+</pre>
+</div>
  
 - __cp (Copy)__ -. Copia archivos o directorios.
 
