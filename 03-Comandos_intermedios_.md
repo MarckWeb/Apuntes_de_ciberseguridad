@@ -14,7 +14,7 @@ vi nombre_del_archivo_a_editar
 
 Para salir de VI  solo basta con colocar :q en el modo normal de VI (pulsando ESC se consigue el modo normal), de esta manera podrás salir sin problema. En el modo normal también puedes combinar comandos como por ejemplo :wq, guarda (w) y cierra el programa (q). VI ejecuta los comandos de izquierda a derecha, es importante esto.
 
-- __chmod (Change Mode)__ -. Cambia los permisos de un archivo o directorio. 
+- __chmod (Change Mode)__ -. Cambia los permisos de un archivo o directorio (-rw-rwx---). 
 
 ```bash
 chmod 755 nombre_del_archivo.
@@ -24,10 +24,57 @@ Otra forma de escribir es asignando + o - para agregar permiso, o para eliminarl
 ```bash
 chmod u+rw filename # usuario puede leer, escribir
 chmod u-r filename # usuario solo puede leer
+```
 
+- __chown (Change Owner)__ -. Cambia el propietario de un archivo o directorio. Los : puntos separan usuario y grupo.
+
+```bash
+chown usuario:grupo nombre_del_archivo
+```
+para que un archivo pertenezca a un nuevo usuario se coloca
+
+```bash
+chown nuevo_usuario archivo.txt
+```
+
+cambiar el usuario y el grupo del archivo:
+
+```bash
+chown nuevo_usuario:grupo_usuario archivo.txt
+```
+Cambiar grupo de un directorio:
+
+```bash
+chown -R :grupo_usuario nombre_directorio
+```
+
+- __grep (global regular expression print )__ -. Busca patrones dentro de archivos.
+
+```bash
+grep "patrón" nombre_del_archivo
 ```
 
 ```bash
-# ejemplo de salida
+# buscar un texto o patron en dos archivo
+grep "texto" archivo1.txt archivo2.txt
+```
 
+```bash
+# buscar un texto o patron en todos los .txt
+grep "texto" *.txt
+```
+
+```bash
+# buscar un texto o patron en todo este directorio
+grep -r "texto" nombre_directorio/
+```
+
+```bash
+# ignora mayus o minus del patron
+grep -i "texto" archivo.txt
+```
+
+```bash
+# buscar el patro dentro de resultado de whois
+whois dominio.com | grep '@dominio.com'
 ```
