@@ -115,17 +115,16 @@ rm -r nombre_del_directorio
 
 ```bash
 # ejemplo de salida
+# eliminar directorio sin contenido
 ┌──(marck㉿kali)-[~]
 └─$ rmdir directorio_padre                               
-rmdir: failed to remove 'directorio_padre': # por que tiene directorio y archivo dentro
-                                              
+
+# eliminar directorio con contenido                                         
 ┌──(marck㉿kali)-[~]
 └─$ rm -r  directorio_padre 
-# se le indica que elimine el directorio y su contenido                                                                                               
+                                                                                              
 ┌──(marck㉿kali)-[~]
 └─$ cd directorio_padre
-cd: no such file or directory: directorio_padre
-# si buscamos el directorio eliminado nos inidcara que no existe por que ya se elimino.
 ```
 
 - __touch__ -. Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente..
@@ -134,33 +133,28 @@ cd: no such file or directory: directorio_padre
 touch nombre_del_archivo
 ```
 
-<div style="border: 1px solid red;">
-  <pre>
-    # ejemplo de salida
-    ┌──(marck㉿kali)-[~]
-    └─$ touch archivo_nuevo.txt
-  </pre>
-</div>
-
+```plaintext
+# ejemplo de salida
+┌──(marck㉿kali)-[~]
+└─$ touch archivo_nuevo.txt
+```
 - __cat__ -. Muestra el contenido de un archivo.
 
 ```bash
 cat nombre_del_archivo
 ```
 
-<div style="border: 1px solid red; padding: 10px; margin-top: 10px;">
-<pre>
+```bash
 # ejemplo de salida
 ┌──(marck㉿kali)-[~]
-└─$ cat usernames.txt
+└─$ cat usernames.txt     
 admin
 user
 msfadmin
 pepe
 jaimito
 root
-</pre>
-</div>
+```
  
 - __cp (Copy)__ -. Copia archivos o directorios.
 
