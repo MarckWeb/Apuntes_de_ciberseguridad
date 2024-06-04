@@ -139,6 +139,23 @@ touch nombre_del_archivo
 ┌──(marck㉿kali)-[~]
 └─$ touch archivo_nuevo.txt
 ```
+- __cat__ -. Muestra el contenido de un archivo.
+
+```bash
+cat nombre_del_archivo
+```
+
+```bash
+# ejemplo de salida
+┌──(marck㉿kali)-[~]
+└─$ cat usernames.txt     
+admin
+user
+msfadmin
+pepe
+jaimito
+root
+```
  
 - __cp (Copy)__ -. Copia archivos o directorios.
 
