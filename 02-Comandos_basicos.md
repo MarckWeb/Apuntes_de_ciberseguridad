@@ -1,7 +1,48 @@
 # Comandos Básicos de Linux
 
-vamos a conocer más comandos utilizados para movernos por la estructura de
-directorios del sistema: 
+comandos utilizados para movernos por la estructura de directorios del sistema: 
+
+al empezar en linux siempre se debe actualizar
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+
+- __sudo su__ -. Cambia el usuario actual a supero usuario root.
+
+```bash
+┌──(marck㉿kali)-[~]
+└─$ sudo su                              
+[sudo] password for marck: 
+
+-----------------Salida--------------------
+┌──(root㉿kali)-[/home/marck]
+└─# 
+```
+
+- __su (Switch User)__ -. Cambia a usuario normal.
+
+```bash
+┌──(root㉿kali)-[/home/marck]
+└─# su marck
+
+-----------------Salida--------------------
+
+┌──(marck㉿kali)-[~]
+└─$ 
+```
+
+- __sudo (Super User Do)__ -. Ejecuta un comando como superusuario.
+
+```bash
+# Ejemplo
+┌──(root㉿kali)-[/home/marck]
+└─# sudo apt update
+
+-----------------Salida--------------------
+Actualizara todos los diferentes paquetes
+que tiene linux.
+```
 
 - __man (Manual)__ -. Muestra el manual de un comando.
 ```bash
