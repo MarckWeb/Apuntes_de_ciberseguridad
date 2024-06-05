@@ -24,10 +24,10 @@ y la descripcion del comando
 
 ```bash
 # Ejemplo
-┌──(usuario㉿kali)-[~/Documentos]
+┌──(marck㉿kali)-[~/Documentos]
 └─$ pwd
 -----------------Salida--------------------
-/home/usuario/Documentos
+/home/marck/Documentos
 ```
 
 - __ls (List)__ -. Lista los archivos y directorios en el directorio actual.
@@ -45,7 +45,7 @@ _Opciones útiles:_
 
 ```bash
 # Ejemplo
-┌──(usuario㉿kali)-[~]
+┌──(marck㉿kali)-[~]
 └─$ ls
 -----------------Salida--------------------
 Documentos  Escritorio  Imágenes  Música
@@ -64,19 +64,19 @@ cd ..
 
 ```bash
 # Ejemplo
-┌──(usuario㉿kali)-[~]
+┌──(marck㉿kali)-[~]
 └─$ cd Downloads
 -----------------Salida--------------------
 El encabezado cambia y muestra el nuevo directorio:
-┌──(usuario㉿kali)-[~/Downloads]
+┌──(marck㉿kali)-[~/Downloads]
 └─$ 
 
 Ahora si haces:
-┌──(usuario㉿kali)-[~/Downloads]
+┌──(marck㉿kali)-[~/Downloads]
 └─$ cd ..
 -----------------Salida--------------------
 El encabezado cambia a ~:
-┌──(usuario㉿kali)-[~]
+┌──(marck㉿kali)-[~]
 └─$ 
 ```
 
@@ -94,7 +94,7 @@ mkdir -p directorio_padre/diretorio_hijo/
 
 ```bash
 # Ejemplo
-┌──(usuario㉿kali)-[~]
+┌──(marck㉿kali)-[~]
 └─$ mkdir apuntes_linux
 -----------------Salida--------------------
 Si no hay errores, no se mostrará ninguna salida, 
@@ -117,11 +117,11 @@ rmdir nombre_del_directorio
 
 ```bash
 # Ejemplo
-┌──(usuario㉿kali)-[~]
+┌──(marck㉿kali)-[~]
 └─$ rmdir apuntes_linux
 -----------------Salida--------------------
 Si no hay errores, no se mostrará ninguna salida, 
-indicando que se elimino el directorio, 
+indicando que se elimino el directorio. 
 
 ```
 
@@ -137,14 +137,21 @@ rm -r nombre_del_directorio
 ```
 
 ```bash
-# ejemplo de salida
-# eliminar directorio sin contenido
+# Ejemplo
 ┌──(marck㉿kali)-[~]
-└─$ rmdir directorio_padre   
+└─$ rm archivo.py 
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se elimino el archivo.   
 
-# eliminar directorio con contenido                                         
+♦ Eliminar directorio con contenido:                                          
 ┌──(marck㉿kali)-[~]
 └─$ rm -r  directorio_padre 
+
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se elimino el directorio mas sus 
+archivos que contenia.   
 ```
 
 - __touch__ -. Crea un archivo vacío o actualiza la fecha de modificación de un archivo existente..
@@ -179,12 +186,33 @@ root
 - __cp (Copy)__ -. Copia archivos o directorios. No necesitas estar en una posición específica dentro del directorio, pero debes especificar las rutas correctas para el archivo o directorio de origen y de destino. 
 
 ```bash
-cp archivo_origen archivo_destino
+cp directorio_origen directorio_destino
 ```
-Por ejemplo, si estás en /home/usuario/documentos y quieres copiar archivo.txt a archivo_copia.txt en el mismo directorio:
+```bash
+# Ejemplo
+┌──(usuario㉿kali)-[~]
+└─$ cp archivo.py Documentos/
+
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se ha hecho una copia del archivo al 
+directorio indicado 
+```
+Por ejemplo, si estás en /home/usuario/documentos y quieres hacer una copia archivo.txt a archivo_copia.txt en el mismo directorio:
 
 ```bash
 cp archivo.txt archivo_copia.txt
+```
+
+```bash
+# Ejemplo
+┌──(usuario㉿kali)-[~]
+└─$ cp archivo.py archivo_copia.py
+
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se ha hecho una copia del archivo
+en el mismo directorio. 
 ```
 
 Si el archivo de origen está en un directorio diferente, necesitas proporcionar la ruta completa o relativa:
@@ -200,10 +228,14 @@ Para copiar un directorio y su contenido: y se siguen los mismo pasos anteriores
 cp -r directorio_origen directorio_destino
 ```
 ```bash
-# ejemplo de salida
+# Ejemplo
 ┌──(marck㉿kali)-[~/Desktop]
 └─$ cp /home/marck/usernames2.txt /home/marck/Desktop/usernames2.txt
 
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se ha hecho una copia del archivo
+en al otro directorio. 
 ```
 - __mv (Move)__ -. Mueve o renombra archivos o directorios. Si especificas las rutas completas, no importa en qué directorio estés situado. 
 
