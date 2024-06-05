@@ -63,42 +63,42 @@ cd ..
 ```
 
 ```bash
-# ejemplo de salida
-┌──(marck㉿kali)-[~]
-└─$ cd Desktop 
-                                               
-┌──(marck㉿kali)-[~/Desktop]
-└─$ cd ..     
-                                              
-┌──(marck㉿kali)-[~]
-└─$ pwd
-/home/marck
+# Ejemplo
+┌──(usuario㉿kali)-[~]
+└─$ cd Downloads
+-----------------Salida--------------------
+El encabezado cambia y muestra el nuevo directorio:
+┌──(usuario㉿kali)-[~/Downloads]
+└─$ 
 ```
 
-- __cd (Make Directory)__ -. Crea un nuevo directorio.
+- __mkdir (Make Directory)__ -. Crea un nuevo directorio.
 
 ```bash
 mkdir nombre_del_directorio
 ```
+
 Para crear directorios padres si no existen:
+
 ```bash
 mkdir -p directorio_padre/diretorio_hijo/
 ```
 
 ```bash
-# ejemplo de salida
-┌──(marck㉿kali)-[~]
+# Ejemplo
+┌──(usuario㉿kali)-[~]
 └─$ mkdir apuntes_linux
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+lo que indica que se ha creado el directorio correctamente.
+
 
 ┌──(marck㉿kali)-[~]
 └─$ mkdir -p directorio_padre/directorio_hijo/archivo.txt
-
-┌──(marck㉿kali)-[~]
-└─$ cd directorio_padre 
-                                                   
-┌──(marck㉿kali)-[~/directorio_padre]
-└─$ ls
-directorio_hijo
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se han creado el directorio, 
+el directorio padre, el hijo y el archivo correctamente.
 ```
 
 - __rmdir (Remove Directory)__ -. Elimina un directorio vacío.
