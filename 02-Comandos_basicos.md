@@ -70,6 +70,14 @@ cd ..
 El encabezado cambia y muestra el nuevo directorio:
 ┌──(usuario㉿kali)-[~/Downloads]
 └─$ 
+
+Ahora si haces:
+┌──(usuario㉿kali)-[~]
+└─$ cd ..
+-----------------Salida--------------------
+El encabezado cambia a ~:
+┌──(usuario㉿kali)-[~]
+└─$ 
 ```
 
 - __mkdir (Make Directory)__ -. Crea un nuevo directorio.
@@ -108,9 +116,13 @@ rmdir nombre_del_directorio
 ```
 
 ```bash
-# ejemplo de salida
-┌──(marck㉿kali)-[~]
-└─$ rmdir apuntes_linux 
+# Ejemplo
+┌──(usuario㉿kali)-[~]
+└─$ rmdir apuntes_linux
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se elimino el directorio, 
+
 ```
 
 - __rm (Remove)__ -. Elimina archivos o directorios.
