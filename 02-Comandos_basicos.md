@@ -3,16 +3,31 @@
 vamos a conocer más comandos utilizados para movernos por la estructura de
 directorios del sistema: 
 
+- **man (Manual)** -. Muestra el manual de un comando.
+```bash
+ man nombre_del_comando
+```
+
+```bash
+# Ejemplo 
+┌──(marck㉿kali)-[~]
+└─$ man ls
+-----------------Salida--------------------
+la salida debe mostrar el name, la synopsis, 
+y la descripcion del comando
+```
+
 - **pwd (Print Working Directoty)** -. Muestra la ruta del directorio de trabajo actual.
 ```bash
  pwd
 ```
 
 ```bash
-# Ejemplo de Salida
-┌──(marck㉿kali)-[~]
+# Ejemplo
+┌──(usuario㉿kali)-[~/Documentos]
 └─$ pwd
-/home/marck
+-----------------Salida--------------------
+/home/usuario/Documentos
 ```
 
 - __ls (List)__ -. Lista los archivos y directorios en el directorio actual.
@@ -29,15 +44,11 @@ _Opciones útiles:_
 - ls –lt Lista extendida de archivos ordenada por fecha. 
 
 ```bash
-# ejemplo de salida
-┌──(marck㉿kali)-[~]
-└─$ ls -l   
-total 5
-drwxr-xr-x  6 marck marck  4096 May 29 14:45 Desktop
-drwxr-xr-x  2 marck marck  4096 Apr 10 20:38 Music
-drwxr-xr-x  2 marck marck  4096 May 31 11:18 Pictures
-drwxr-xr-x  2 marck marck  4096 Apr 10 20:38 Public
-drwxr-xr-x  2 marck marck  4096 Apr 10 20:38 Videos
+# Ejemplo
+┌──(usuario㉿kali)-[~]
+└─$ ls
+-----------------Salida--------------------
+Documentos  Escritorio  Imágenes  Música
 ```
 
 - __cd (Change Directory)__ -. Cambia el directorio de trabajo actual.
