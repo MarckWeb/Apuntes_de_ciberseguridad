@@ -3,7 +3,7 @@
 vamos a conocer más comandos utilizados para movernos por la estructura de
 directorios del sistema: 
 
-- **man (Manual)** -. Muestra el manual de un comando.
+- __man (Manual)__ -. Muestra el manual de un comando.
 ```bash
  man nombre_del_comando
 ```
@@ -17,7 +17,21 @@ la salida debe mostrar el name, la synopsis,
 y la descripcion del comando
 ```
 
-- **pwd (Print Working Directoty)** -. Muestra la ruta del directorio de trabajo actual.
+- __echo (Echo)__ -. Imprime texto en la terminal.
+```bash
+ echo "texto"
+```
+
+```bash
+# Ejemplo
+┌──(usuario㉿kali)-[~]
+└─$ echo "Hola Mundo"
+
+-----------------Salida--------------------
+Hola Mundo
+```
+
+- __pwd (Print Working Directoty)__ -. Muestra la ruta del directorio de trabajo actual.
 ```bash
  pwd
 ```
@@ -161,9 +175,13 @@ touch nombre_del_archivo
 ```
 
 ```bash
-# ejemplo de salida
+# Ejemplo
 ┌──(marck㉿kali)-[~]
 └─$ touch archivo_nuevo.txt
+
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se creo el nuevo archivo. 
 ```
 - __cat__ -. Muestra el contenido de un archivo.
 
@@ -174,13 +192,10 @@ cat nombre_del_archivo
 ```bash
 # ejemplo de salida
 ┌──(marck㉿kali)-[~]
-└─$ cat usernames.txt     
-admin
-user
-msfadmin
-pepe
-jaimito
-root
+└─$ cat archivo.txt
+
+-----------------Salida--------------------
+Contenido del archivo...
 ```
  
 - __cp (Copy)__ -. Copia archivos o directorios. No necesitas estar en una posición específica dentro del directorio, pero debes especificar las rutas correctas para el archivo o directorio de origen y de destino. 
@@ -229,7 +244,7 @@ cp -r directorio_origen directorio_destino
 ```
 ```bash
 # Ejemplo
-┌──(marck㉿kali)-[~/Desktop]
+┌──(marck㉿kali)-[~]
 └─$ cp /home/marck/usernames2.txt /home/marck/Desktop/usernames2.txt
 
 -----------------Salida--------------------
@@ -237,7 +252,7 @@ Si no hay errores, no se mostrará ninguna salida,
 indicando que se ha hecho una copia del archivo
 en al otro directorio. 
 ```
-- __mv (Move)__ -. Mueve o renombra archivos o directorios. Si especificas las rutas completas, no importa en qué directorio estés situado. 
+- __mv (Move)__ -. Mueve o renombra archivos o directorios.  
 
 ```bash
 mv archivo_origen archivo_destino
@@ -245,7 +260,16 @@ mv archivo_origen archivo_destino
 Renombra el archivo existente:
 
 ```bash
-mv /home/marck/desktop /home/marck/desktop_file
+mv directorio_nombre_original directorio_nombre_cambiado
+```
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ mv casa_azul casa_medio_azul
+
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se cambio el nombre del directorio. 
 ```
 
 Mover el archivo existente:
