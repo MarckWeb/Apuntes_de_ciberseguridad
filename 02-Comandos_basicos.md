@@ -279,17 +279,58 @@ Por ejemplo, para mover archivo.txt desde /home/marck/documentos a /home/marck/d
 mv /home/marck/documentos/archivo.txt /home/marck/desktop/archivo.txt
 ```
 
-Si estás en el mismo directorio que el archivo que deseas mover:
+Si estás en el mismo directorio donde esta el archivo y quieres mover a otro directorio:
 
 ```bash
-cd /home/marck/documentos
-mv archivo.txt ../desktop/archivo.txt
+┌──(marck㉿kali)-[~/Documents]
+└─$  mv archivo.txt ../Desktop
+
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se movio el archivo al otro directorio. 
 ```
 
-Si estás en el directorio padre de ambos el directorio de origen y el de destino:
+Si estás en el directorio padre de ambos directorios de origen y destino:
+y quieres mover un archivo
 
 ```bash
-cd /home/marck
-mv documentos/archivo.txt desktop/archivo.txt
+#Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ mv Desktop/Cursos/hacking.txt Documents
+
+-----------------Salida--------------------
+Si no hay errores, no se mostrará ninguna salida, 
+indicando que se movio el archivo al otro directorio. 
 ```
 
+- __clear (Clear)__ -.  Limpia la terminal.  
+
+```bash
+clear
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ clear
+
+-----------------Salida--------------------
+Si no hay errores, limpia todo el contenido
+de la terminal. 
+```
+
+- __clear (Clear)__ -.  Limpia la terminal.  
+
+```bash
+clear
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ clear
+
+-----------------Salida--------------------
+Si no hay errores, limpia todo el contenido
+de la terminal. 
+```
