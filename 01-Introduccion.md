@@ -1,27 +1,38 @@
-# COMANDOS BASICOS DE LINUX
+# INTRODUCCIÓN A LINUX
 
-## Descripción de cada directorio:
-```bash
--> / (Raíz): El directorio raíz que contiene todos los demás directorios y archivos.
--> /bin: Comandos binarios esenciales, como ls, cp, mkdir.
--> /boot: Archivos necesarios para el arranque del sistema, incluido el kernel.
--> /dev: Archivos de dispositivos del sistema.
--> /etc: Archivos de configuración del sistema.
--> /home: Directorios personales de los usuarios.
--> /lib: Bibliotecas esenciales para los binarios en /bin y /sbin.
--> /media: Puntos de montaje para medios extraíbles como CD ->ROMs y USBs.
--> /mnt: Puntos de montaje temporales para el administrador del sistema.
--> /opt: Paquetes de software opcionales.
--> /proc: Sistema de archivos virtual que proporciona información sobre el sistema y procesos en ejecución.
--> /root: Directorio personal del usuario root (superusuario).
--> /run: Archivos de estado temporal, creados al inicio del sistema.
--> /sbin: Comandos binarios esenciales para la administración del sistema.
--> /srv: Datos específicos del sitio servidos por el sistema.
--> /sys: Información del sistema y dispositivos, similar a /proc.
--> /tmp: Archivos temporales.
--> /usr: Utilidades y aplicaciones del usuario, que incluye subdirectorios como /usr/bin, /usr/lib, etc.
--> /var: Archivos variables como logs, correos, impresoras, etc.
-```
+## Por qué aprender comandos básicos de Linux
+
+Linux es uno de los sistemas operativos más populares y versátiles en el mundo de la informática. Dominar los comandos básicos de Linux te brinda una serie de beneficios, incluyendo:
+
+- **Flexibilidad**: Conocer los comandos te permite realizar una variedad de tareas, desde la administración del sistema hasta la programación y el desarrollo de software.
+
+- **Eficiencia**: Al utilizar la línea de comandos, puedes realizar muchas tareas de manera más rápida y eficiente que utilizando interfaces gráficas de usuario.
+
+- **Aprendizaje transferible**: Muchos conceptos y comandos básicos de Linux son transferibles a otros sistemas operativos basados en Unix, como macOS.
+
+- **Acceso a herramientas avanzadas**: Muchas herramientas y utilidades poderosas están disponibles solo a través de la línea de comandos en Linux, lo que te brinda acceso a capacidades avanzadas de administración y desarrollo.
+
+## ARBOL DE LINUX:
+
+- **/** (Raíz): El directorio raíz que contiene todos los demás directorios y archivos.
+- **/bin**: Comandos binarios esenciales, como `ls`, `cp`, `mkdir`.
+- **/boot**: Archivos necesarios para el arranque del sistema, incluido el kernel.
+- **/dev**: Archivos de dispositivos del sistema.
+- **/etc**: Archivos de configuración del sistema.
+- **/home**: Directorios personales de los usuarios.
+- **/lib**: Bibliotecas esenciales para los binarios en `/bin` y `/sbin`.
+- **/media**: Puntos de montaje para medios extraíbles como CD-ROMs y USBs.
+- **/mnt**: Puntos de montaje temporales para el administrador del sistema.
+- **/opt**: Paquetes de software opcionales.
+- **/proc**: Sistema de archivos virtual que proporciona información sobre el sistema y procesos en ejecución.
+- **/root**: Directorio personal del usuario root (superusuario).
+- **/run**: Archivos de estado temporal, creados al inicio del sistema.
+- **/sbin**: Comandos binarios esenciales para la administración del sistema.
+- **/srv**: Datos específicos del sitio servidos por el sistema.
+- **/sys**: Información del sistema y dispositivos, similar a `/proc`.
+- **/tmp**: Archivos temporales.
+- **/usr**: Utilidades y aplicaciones del usuario, que incluye subdirectorios como `/usr/bin`, `/usr/lib`, etc.
+- **/var**: Archivos variables como logs, correos, impresoras, etc.
 
 ## Estructura de comandos
 
@@ -50,8 +61,6 @@ El signo ~ representa el directorio personal del usuario actual.
 ```bash
 cd ~      # Va al directorio del usuario
 ```
-
-## Significado de los Puntos y Otros Signos
 - . (punto): Representa el directorio actual.
 Ejemplo: ./script.sh ejecuta el script en el directorio actual.
 
@@ -65,3 +74,5 @@ Ejemplo: /usr/local/bin
 cd .      # Permanece en el directorio actual
 cd ..     # Sube al directorio padre
 ```
+
+

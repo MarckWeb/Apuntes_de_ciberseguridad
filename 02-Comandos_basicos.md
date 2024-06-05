@@ -319,18 +319,53 @@ Si no hay errores, limpia todo el contenido
 de la terminal. 
 ```
 
-- __clear (Clear)__ -.  Limpia la terminal.  
+- __history (History)__ -.  Muestra el historial de comandos utilizados.  
 
 ```bash
-clear
+history
 ```
 
 ```bash
 # Ejemplo
 ┌──(marck㉿kali)-[~]
-└─$ clear
+└─$ history
 
 -----------------Salida--------------------
-Si no hay errores, limpia todo el contenido
-de la terminal. 
+ 1  ls
+ 2  cd Documentos
+ 3  mkdir nuevo_directorio
+ 4  touch nuevo_archivo.txt
+ 5  clear
 ```
+
+- __whoami (Who Am I)__ -.  Muestra el nombre del usuario actual.  
+
+```bash
+whoami
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ whoami
+
+-----------------Salida--------------------
+marck
+```
+
+- __who (Who)__ -. Muestra información sobre los usuarios que están actualmente conectados.  
+
+```bash
+who
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ who
+
+-----------------Salida--------------------
+marck    tty7         2024-04-05 00:06 (:0)
+```
+
+
