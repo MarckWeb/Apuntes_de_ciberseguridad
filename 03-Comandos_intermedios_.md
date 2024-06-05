@@ -65,7 +65,8 @@ grep "texto" *.txt
 ```
 
 ```bash
-# buscar un texto o patron en todo este directorio
+# buscar un texto o patron en todo
+# este directorio
 grep -r "texto" nombre_directorio/
 ```
 

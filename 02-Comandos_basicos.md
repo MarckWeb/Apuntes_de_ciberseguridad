@@ -72,7 +72,7 @@ El encabezado cambia y muestra el nuevo directorio:
 └─$ 
 
 Ahora si haces:
-┌──(usuario㉿kali)-[~]
+┌──(usuario㉿kali)-[~/Downloads]
 └─$ cd ..
 -----------------Salida--------------------
 El encabezado cambia a ~:
