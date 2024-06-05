@@ -27,7 +27,6 @@ sudo apt update && sudo apt upgrade
 └─# su marck
 
 -----------------Salida--------------------
-
 ┌──(marck㉿kali)-[~]
 └─$ 
 ```
