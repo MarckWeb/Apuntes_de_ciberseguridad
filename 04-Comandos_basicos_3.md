@@ -177,4 +177,23 @@ uname -a
 Linux kali 5.10.0-kali3-amd64 #1 SMP Debian 5.10.13-1kali1 (2021-02-08) x86_64 GNU/Linux
 ```
 
+- __printenv (Print Environment)__ -. Imprime todas o algunas de las variables de entorno.  
+
+```bash
+printenv
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ printenv
+
+-----------------Salida--------------------
+COLORFGBG=15;0
+COLORTERM=truecolor
+COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+.......
+```
+
 
