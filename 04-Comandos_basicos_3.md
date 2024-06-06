@@ -130,4 +130,51 @@ Changing password for marck.
 Current password: 
 ```
 
+- __ping (Ping)__ -. Comprueba la conectividad de red.  
+
+```bash
+ping direccion_ip_o_url
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ ping google.com
+
+-----------------Salida--------------------
+PING google.com (172.217.10.46) 56(84) bytes of data.
+```
+
+- __traceroute (Traceroute)__ -. Rastrea la ruta que siguen los paquetes para llegar a un host.  
+
+```bash
+traceroute direccion_ip_o_url
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ traceroute google.com
+
+-----------------Salida--------------------
+traceroute to google.com (142.250.184.174), 30 hops max, 60 byte packets
+1  mygpon.ip (192.168.0.1)  9.059 ms  8.984 ms  9.251 ms
+.......
+```
+
+- __uname (Unix Name)__ -. Muestra información del sistema.  
+
+```bash
+uname -a
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ uname -a
+
+-----------------Salida--------------------
+Linux kali 5.10.0-kali3-amd64 #1 SMP Debian 5.10.13-1kali1 (2021-02-08) x86_64 GNU/Linux
+```
+
 
