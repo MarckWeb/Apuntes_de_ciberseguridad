@@ -1,6 +1,6 @@
 # Apuntes de Linux
 
-![Linux Logo](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux Logo" width="150"/>
 
 ## Descripción
 
@@ -20,3 +20,4 @@ Este repositorio contiene mis apuntes sobre Linux, cubriendo diversos aspectos d
 1. **Clonar el Repositorio:**
    ```bash
    git clone https://github.com/tu-usuario/apuntes-de-linux.git
+   ```
