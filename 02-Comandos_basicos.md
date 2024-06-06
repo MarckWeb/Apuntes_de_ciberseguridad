@@ -176,7 +176,6 @@ rmdir nombre_del_directorio
 -----------------Salida--------------------
 Si no hay errores, no se mostrará ninguna salida, 
 indicando que se elimino el directorio. 
-
 ```
 
 - __rm (Remove)__ -. Elimina archivos o directorios.
@@ -406,6 +405,22 @@ who
 
 -----------------Salida--------------------
 marck    tty7         2024-04-05 00:06 (:0)
+```
+
+- __passwd (Password)__ -. Cambia la contraseña de un usuario.  
+
+```bash
+passwd
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ passwd
+
+-----------------Salida--------------------
+Changing password for marck.
+Current password: 
 ```
 
 
