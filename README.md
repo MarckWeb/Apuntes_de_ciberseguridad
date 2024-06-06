@@ -21,6 +21,6 @@ Este repositorio contiene mis apuntes sobre Linux, cubriendo diversos aspectos d
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/apuntes-de-linux.git
+   git clone https://github.com/MarckWeb/Comandos-de-Linux.git
 
    ```
