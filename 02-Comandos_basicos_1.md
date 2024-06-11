@@ -64,11 +64,49 @@ y la descripcion del comando
 
 ```bash
 # Ejemplo
-┌──(usuario㉿kali)-[~]
+┌──(marck㉿kali)-[~]
 └─$ echo "Hola Mundo"
 
 -----------------Salida--------------------
 Hola Mundo
+```
+
+- __cal (Calendario)__ -. Muestra el calendario del mes o año actual.
+```bash
+ cal
+```
+
+```bash
+ cal 5 2024
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ cal
+
+-----------------Salida--------------------
+     June 2024        
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+30  
+
+# Ejemplo
+┌──(marck㉿kali)-[~]
+└─$ cal 5 2024
+
+-----------------Salida--------------------
+      May 2024        
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31   
 ```
 
 - __pwd (Print Working Directoty)__ -. Muestra la ruta del directorio de trabajo actual.

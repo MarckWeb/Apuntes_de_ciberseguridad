@@ -44,6 +44,12 @@ Cuando el sistema presenta el prompt significa que ya está preparado para acept
 ```bash
 $ comando [opciones] [parámetros] 
 ```
+A la hora de introducir los comandos hay que tener en cuenta:
+
+    * Los comandos hay que teclearlos exactamente.
+    * Las letras mayúsculas y minúsculas se consideran como diferentes.
+    * Normalmente, el sistema operativo utiliza un signo de $ como prompt para indicar que está preparado para aceptar comandos, aunque este carácter puede ser fácilmente sustituido por otro carácter. En el caso de que el usuario que acceda sea el administrador este signo se sustituye por #.
+    * Cuando sea necesario introducir el nombre de un fichero o directorio como argumento a un comando, GNU/Linux permite escribir las primeras letras y si se presiona la tecla del tabulador, realiza un autorrellenado, y en el caso que no pueda distinguir entre diversos casos, rellenará hasta el punto en el que se diferencien.
 
 ## Ruta Relativa y Absoluta
 
