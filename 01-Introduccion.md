@@ -12,27 +12,30 @@ Linux es uno de los sistemas operativos más populares y versátiles en el mundo
 
 - **Acceso a herramientas avanzadas**: Muchas herramientas y utilidades poderosas están disponibles solo a través de la línea de comandos en Linux, lo que te brinda acceso a capacidades avanzadas de administración y desarrollo.
 
-## ARBOL DE LINUX:
+## ESTRUCTURA DEL SISTEMA DE ARCHIVOS EN GNU/LINUX
+
+El File System o sistema de archivos sirve para la organización de datos y metadatos, proporcionando los medios para el almacenamiento tales como disco duro, disquete….
 
 - **/** (Raíz): El directorio raíz que contiene todos los demás directorios y archivos.
+- **/home** Cada usuario tendrá un subdirectorio para almacenar sus archivos personales
 - **/bin**: Comandos binarios esenciales, como `ls`, `cp`, `mkdir`.
 - **/boot**: Archivos necesarios para el arranque del sistema, incluido el kernel.
 - **/dev**: Archivos de dispositivos del sistema.
 - **/etc**: Archivos de configuración del sistema.
 - **/home**: Directorios personales de los usuarios.
-- **/lib**: Bibliotecas esenciales para los binarios en `/bin` y `/sbin`.
+- **/lib**: Archivos de librerías, similares a archivos .dll
 - **/media**: Puntos de montaje para medios extraíbles como CD-ROMs y USBs.
 - **/mnt**: Puntos de montaje temporales para el administrador del sistema.
 - **/opt**: Paquetes de software opcionales.
 - **/proc**: Sistema de archivos virtual que proporciona información sobre el sistema y procesos en ejecución.
-- **/root**: Directorio personal del usuario root (superusuario).
+- **/root**: Contiene los archivos del usuario «root" (administrador)(superusuario).
 - **/run**: Archivos de estado temporal, creados al inicio del sistema.
 - **/sbin**: Comandos binarios esenciales para la administración del sistema.
 - **/srv**: Datos específicos del sitio servidos por el sistema.
 - **/sys**: Información del sistema y dispositivos, similar a `/proc`.
 - **/tmp**: Archivos temporales.
-- **/usr**: Utilidades y aplicaciones del usuario, que incluye subdirectorios como `/usr/bin`, `/usr/lib`, etc.
-- **/var**: Archivos variables como logs, correos, impresoras, etc.
+- **/usr**: Contiene la mayoría de los archivos de los programas instalados en el ordenador por el usuario.
+- **/var/log**: Contiene los archivos de registros (logs) de las aplicaciones.
 
 ## Estructura de comandos
 
