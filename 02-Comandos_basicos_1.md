@@ -109,6 +109,19 @@ Su Mo Tu We Th Fr Sa
 26 27 28 29 30 31   
 ```
 
+- __date (date)__ -. Muestra la fecha y hora, y también permite cambiarla.
+```bash
+date
+```
+
+```bash
+# Ejemplo
+┌──(marck㉿kali)-[~/Documentos]
+└─$ date
+-----------------Salida--------------------
+Tue Jun 11 21:13:52 CEST 2024
+```
+
 - __pwd (Print Working Directoty)__ -. Muestra la ruta del directorio de trabajo actual.
 ```bash
  pwd
