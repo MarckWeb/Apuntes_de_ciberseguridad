@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Este repositorio contiene mis apuntes sobre Linux, cubriendo diversos aspectos del sistema operativo. Está diseñado para ser una referencia útil tanto para principiantes como para usuarios avanzados. Los apuntes incluyen comandos básicos, administración del sistema, scripting, y mucho más.
+Este repositorio contiene mis apuntes sobre Linux, cubriendo diversos aspectos del sistema operativo. Está diseñado para ser una referencia útil para principiantes. Los apuntes incluyen comandos básicos, administración del sistema, y mucho más.
 
 ## Contenido del Repositorio
 
