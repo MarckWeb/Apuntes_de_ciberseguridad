@@ -28,9 +28,11 @@ La seguridad en línea es crucial para proteger su información personal y dispo
 
 Estos pasos le ayudarán a fortalecer la seguridad de sus dispositivos y redes, protegiendo su información personal de posibles amenazas en línea.
 
-# Mantenimiento de datos
+--------------------------------------------------
 
-Proteger sus datos es fundamental para evitar accesos no autorizados y pérdidas irreparables de información sensible. Aquí lo más importante sobre el cifrado y mantenimiento de datos:
+## Mantenimiento de datos
+
+Proteger nuestros datos es fundamental para evitar accesos no autorizados y pérdidas irreparables de información sensible. Aquí lo más importante sobre el cifrado y mantenimiento de datos:
 
 ## Cifrado de Datos
 
