@@ -1,4 +1,4 @@
-<h1 align="center">Apuntes de Linux</h1>
+<h1 align="center">Apuntes de Conceptos de Ciberseguridad</h1>
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux Logo" width="150"/>
@@ -6,16 +6,15 @@
 
 ## Descripción
 
-Este repositorio contiene mis apuntes sobre Linux, cubriendo diversos aspectos del sistema operativo. Está diseñado para ser una referencia útil para principiantes. Los apuntes incluyen comandos básicos, administración del sistema, y mucho más.
+Este repositorio contiene mis apuntes sobre Ciberseguridad, cubriendo diversos aspectos. Está diseñado para ser una referencia útil para principiantes. Los apuntes incluyen, conceptos basicos de Ciberseguridad, redes, comandos básicos, administración del sistema, y mucho más.
 
 ## Contenido del Repositorio
 
-- **Comandos Básicos:** Introducción a los comandos más utilizados en la línea de comandos de Linux.
+- **Conceptos Básicos:** Introducción a conceptos basicos de ciberseguridad.
+- **Redes:** Conceptos básicos y avanzados sobre la configuración de redes en Linux.
 - **Administración del Sistema:** Información sobre la gestión de usuarios, permisos, procesos, y más.
 - **Scripting:** Ejemplos y guías sobre cómo escribir y utilizar scripts en bash.
-- **Redes:** Conceptos básicos y avanzados sobre la configuración de redes en Linux.
-- **Seguridad:** Buenas prácticas y herramientas para mantener seguro tu sistema Linux.
-- **Troubleshooting:** Consejos y comandos para la resolución de problemas comunes.
+- **Comandos Básicos:** Introducción a los comandos más utilizados en la línea de comandos de Linux.
 
 ## Cómo Utilizar Este Repositorio
 
