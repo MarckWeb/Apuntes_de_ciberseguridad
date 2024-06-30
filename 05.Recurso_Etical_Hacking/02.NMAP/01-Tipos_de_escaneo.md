@@ -197,12 +197,3 @@ MAC Address: 08:00:27:00:F9:19 (Oracle VirtualBox virtual NIC)
 Nmap done: 1 IP address (1 host up) scanned in 34.81 seconds
 
 ```
-
-
-Opciones de sonda.
-Opciones de puerto.
-Opciones de tiempo.
-Opciones de scripts.
-Opciones de salida.
-Opciones adicionales.
-Objetivos.
