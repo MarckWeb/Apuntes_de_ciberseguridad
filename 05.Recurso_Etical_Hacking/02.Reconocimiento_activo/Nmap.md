@@ -15,12 +15,17 @@ No realiza un escaneo de puertos, solo descubre hosts activos.
 
 ```sh
 ┌──(marck㉿kali)-[~]
-└─$ nmap -sn 192.168.0.18
+└─$ nmap -sn 192.168.0.0/24
 
-Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-30 16:53 CEST
-Nmap scan report for 192.168.0.18
-Host is up (0.00100s latency).
-Nmap done: 1 IP address (1 host up) scanned in 13.18 seconds
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-30 18:39 CEST
+Nmap scan report for nhgn.ip (152.168.0.1)
+Host is up (0.0062s latency).
+Nmap scan report for 152.168.0.16
+Host is up (0.0055s latency).
+Nmap scan report for 152.168.0.18
+Host is up (0.0098s latency).
+Nmap done: 256 IP addresses (3 hosts up) scanned in 15.76 seconds
+
 ```
 2. Escaneo SYN:
 
