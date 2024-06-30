@@ -129,9 +129,13 @@ nmap -T3 <objetivo>
 nmap -T4 <objetivo>
 ```
 
-4. Modo Insane:
+6. Modo Insane:
 
 ```sh
 # Muy agresivo, probablemente abrumará a los objetivos o omitirá puertos abiertos.
 nmap -T5 <objetivo>
 ```
+Opciones de scripts.
+Opciones de salida.
+Opciones adicionales.
+Objetivos.
